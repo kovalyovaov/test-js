@@ -1,35 +1,52 @@
+// let base = prompt ("что-то делай");
+// console.log (Number(base));
 
-// function filterArray(numbers, value) {
-//     // Change code below this line
-//  const newArray = [];
-//  for (let i = 0; i < numbers.length; i +=1) {
-//    console.log(numbers[i]);
-//    if (numbers[i]>value) {
-//     newArray.push(numbers[i]);
-   
-//    }
+// let power = prompt ("Давай степень");
+// console.log (Number(power));
 
-//  }
-//  console.log (newArray);
-// return newArray;
-
-//    // Change code above this line
-//  }
-//  filterArray([1, 20, 10, 4, 5], 5);
+// const result = base ** power;
+// console.log (result);
 
 
-// 
+// const max = 50;
+// const min = 55;
 
-function getEvenNumbers(start, end) {
-    // Change code below this line
- newArray = [];
+// let sumRez = Math.random() * (max - min) + min;
+//  console.log (sumRez);
+
+// console.log (Math.round(sumRez));
+
+
+// let brand = 'LGfdfdf';
+// const newBrend = brand.toLowerCase();
+// console.log (newBrend);
+// console.log (brand.slice(2));
+
+// console.log (brand[0].toUpperCase() + brand[1].toUpperCase()+ brand.slice(2).toLowerCase());
+
+
+// const nsme1 = 20;
+// const nsme2 = 30;
+// const number = 22;
+
+// const rezalt = number >nsme1 && number < nsme2;
+// console.log (rezalt);
+
+const name = 'Ivan';
+
+if (name==='ivan') {
+  console.log ('true');
+
+}
+ console.log ('false');
+
+
+
+
+
+
+
+
+
+
  
- for (let i=start; i<=end; i+=1 ){
-   if (i%2===0){
-     newArray.push(i);
-   }
- }
- return;
- 
-     // Change code above this line
-   }
