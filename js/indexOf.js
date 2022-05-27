@@ -1,3 +1,19 @@
-const getFriends = (users) =>
-users.flatMap(user=>user.friends).
-filter((friend, index, array)=>array.indexOf(friend)===index);
+class StringBuilder {
+    constructor (initialValue){
+        this.value = initialValue;
+    }
+    getValue(){
+        return this.value;
+    }
+    
+}
+
+// Change code above this line
+const builder = new StringBuilder(".");
+console.log(builder.getValue()); // "."
+builder.padStart("^");
+console.log(builder.getValue()); // "^."
+builder.padEnd("^");
+console.log(builder.getValue()); // "^.^"
+builder.padBoth("=");
+console.log(builder.getValue()); // "=^.^="
